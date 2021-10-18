@@ -17,7 +17,6 @@ def feedback():
 
             json_data = json.load(open("2task\data.json",))
             data_dict = {}
-            print("aaa")
             data_dict["email"] = request.form['email'] if request.form['pers_data'] == "yes" else "anon"
             data_dict["feedback"] = request.form["feedback"]
             features = list()
