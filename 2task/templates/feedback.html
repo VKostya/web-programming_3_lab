@@ -1,0 +1,33 @@
+
+<html>
+<head>
+    <title>Home page</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <p>Name:</p>
+        <p><input type="text" name="name" ></p>
+        <p>Surname:</p>
+        <p><input type="text" name="surname"></p>
+        <p>Email:</p>
+        <p><input type="text" name="email" required></p>
+        <p>Write your feedback please (300 symbols max.):</p>
+        <p><input type="text" name="feedback" maxlength="300" required></p>
+<p>Tell us about main features</p>
+<input type="checkbox" id="design" name="feature1" value="design" checked>
+<label for="design">I like design</label><br>
+<input type="checkbox" id="content" name="feature2" value="content" >
+<label for="content">I like content</label><br>
+<input type="checkbox" id="optimization" name="feature3" value="optimization">
+<label for="optimization">I like optimization</label><br>
+
+
+        <p>Do you allow your personal data usage?</p>
+        <input type="radio" id="yes" name="pers_data" value="yes" checked>
+<label for="yes">yes</label><br>
+<input type="radio" id="no" name="pers_data" value="no">
+<label for="no">no</label><br>
+        <p><input type="submit" value="submit"></p>
+    </form>
+</body>
+</html>
